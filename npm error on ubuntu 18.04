@@ -1,0 +1,27 @@
+I'm not sure of what I'm supposed to do here at all, but I'm trying to get help with this error message I got
+/home/lu/web-dev-starter/npm-debug.log
+~/web-dev-starter$ sudo npm install lite-server --save-dev
+loadDep:fsevents → addNam ▄ ╢███████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+npm ERR! Linux 5.4.0-90-generic
+npm ERR! argv "/usr/bin/node" "/usr/bin/npm" "install" "lite-server" "--save-dev"
+npm ERR! node v8.10.0
+npm ERR! npm  v3.5.2
+npm ERR! code EMISSINGARG
+
+npm ERR! typeerror Error: Missing required argument #1
+npm ERR! typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+npm ERR! typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+npm ERR! typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+npm ERR! typeerror     at /usr/share/npm/lib/install/deps.js:457:7
+npm ERR! typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+npm ERR! typeerror     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+npm ERR! typeerror     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+npm ERR! typeerror     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+npm ERR! typeerror     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+npm ERR! typeerror     at /usr/share/npm/lib/fetch-package-metadata.js:109:7
+npm ERR! typeerror This is an error with npm itself. Please report this error at:
+npm ERR! typeerror     <http://github.com/npm/npm/issues>
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/lu/web-dev-starter/npm-debug.log
+
